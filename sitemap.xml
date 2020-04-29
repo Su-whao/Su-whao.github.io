@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost/post/</loc>
+    <loc>http://https://su-whao.github.io/post/</loc>
     <lastmod>2020-04-29T22:18:11+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/post/my-first-post/</loc>
+    <loc>http://https://su-whao.github.io/post/my-first-post/</loc>
     <lastmod>2020-04-29T22:18:11+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/</loc>
+    <loc>http://https://su-whao.github.io/</loc>
     <lastmod>2020-04-29T22:18:11+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost/categories/</loc>
+    <loc>http://https://su-whao.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://localhost/tags/</loc>
+    <loc>http://https://su-whao.github.io/tags/</loc>
   </url>
   
 </urlset>
