@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://whao.cc/post/java-introduction/</loc>
-    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://whao.cc/tags/basics/</loc>
     <lastmod>2020-05-29T00:00:00+00:00</lastmod>
   </url>
@@ -18,12 +13,17 @@
   </url>
   
   <url>
+    <loc>https://whao.cc/post/java-introduction/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://whao.cc/tags/java/</loc>
     <lastmod>2020-05-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://whao.cc/categories/java-besics/</loc>
+    <loc>https://whao.cc/categories/java-basics/</loc>
     <lastmod>2020-05-29T00:00:00+00:00</lastmod>
   </url>
   
