@@ -3,31 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://su-whao.github.io/about/</loc>
+    <loc>https://localhost:1313/post/java-introduction/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/basics/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/categories/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/java/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/categories/java-besics/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/post/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/tags/</loc>
+    <lastmod>2020-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://localhost:1313/about/</loc>
     <lastmod>2020-04-29T22:42:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://su-whao.github.io/</loc>
+    <loc>https://localhost:1313/</loc>
     <lastmod>2020-04-29T22:42:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://su-whao.github.io/post/</loc>
+    <loc>https://localhost:1313/post/my-first-post/</loc>
     <lastmod>2020-04-29T22:18:11+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://su-whao.github.io/post/my-first-post/</loc>
-    <lastmod>2020-04-29T22:18:11+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://su-whao.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://su-whao.github.io/tags/</loc>
   </url>
   
 </urlset>

@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 浩Hao</title>
-    <link>https://su-whao.github.io/post/</link>
-    <description>Recent content in Posts on 浩Hao</description>
+    <title>Posts on 北风 Blog</title>
+    <link>https://localhost:1313/post/</link>
+    <description>Recent content in Posts on 北风 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2020 22:18:11 +0800</lastBuildDate>
+    <language>zh</language>
+    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://su-whao.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>01 - Hello Java</title>
+      <link>https://localhost:1313/post/java-introduction/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/post/java-introduction/</guid>
+      <description>title 1 t2 t1 你好你好</description>
+    </item>
+    
+    <item>
       <title>我的第一篇文章</title>
-      <link>https://su-whao.github.io/post/my-first-post/</link>
+      <link>https://localhost:1313/post/my-first-post/</link>
       <pubDate>Wed, 29 Apr 2020 22:18:11 +0800</pubDate>
       
-      <guid>https://su-whao.github.io/post/my-first-post/</guid>
-      <description>ok</description>
+      <guid>https://localhost:1313/post/my-first-post/</guid>
+      <description>ok 这次啊阿三顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶水水水水水水水水水水水水水水水水水水水酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷 酷酷酷酷酷酷</description>
     </item>
     
   </channel>
