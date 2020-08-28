@@ -12,6 +12,33 @@
     
     
     <item>
+      <title>Xiaoming Love 235</title>
+      <link>https://whao.cc/algorithm/xiaoming-love-235/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whao.cc/algorithm/xiaoming-love-235/</guid>
+      <description>京东 2020 秋招 自从学了素数以后，小明喜欢上了数字 2、3 和 5。当然，如果一个数字里面只出现 2、3 和 5 这三个数字，他也一样喜欢，例如 222、2355</description>
+    </item>
+    
+    <item>
+      <title>滚球游戏</title>
+      <link>https://whao.cc/algorithm/gun-qiu-you-xi/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whao.cc/algorithm/gun-qiu-you-xi/</guid>
+      <description>京东 2020 秋招 某滚球游戏规则如下：球从入口处（第一层）开始向下滚动，每次可向下滚动一层，直到滚至最下面一层为止。球每次可滚至左下、下方或右下三个</description>
+    </item>
+    
+    <item>
+      <title>Java 程序基础概念</title>
+      <link>https://whao.cc/post/java-basic-concept/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whao.cc/post/java-basic-concept/</guid>
+      <description>注释 单行注释 多行注释 文档注释 标识符与关键字 数据类型 基本数据类型 数据占用空间大小 引用数据类型 默认值 数据溢出 运算符 一、注释 在程序编写的过程中，使</description>
+    </item>
+    
+    <item>
       <title>Hello Java</title>
       <link>https://whao.cc/post/java-introduction/</link>
       <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
@@ -27,15 +54,6 @@
       
       <guid>https://whao.cc/about/</guid>
       <description>大家好，我是阿浩，一个即将承受社会毒打的程序员。</description>
-    </item>
-    
-    <item>
-      <title>我的第一篇文章</title>
-      <link>https://whao.cc/post/my-first-post/</link>
-      <pubDate>Wed, 29 Apr 2020 22:18:11 +0800</pubDate>
-      
-      <guid>https://whao.cc/post/my-first-post/</guid>
-      <description>ok 这次啊阿三顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶水水水水水水水水水水水水水水水水水水水酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷酷 酷酷酷酷酷酷</description>
     </item>
     
   </channel>

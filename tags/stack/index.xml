@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stack on 北风 Blog</title>
+    <link>https://whao.cc/tags/stack/</link>
+    <description>Recent content in Stack on 北风 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://whao.cc/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xiaoming Love 235</title>
+      <link>https://whao.cc/algorithm/xiaoming-love-235/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whao.cc/algorithm/xiaoming-love-235/</guid>
+      <description>京东 2020 秋招 自从学了素数以后，小明喜欢上了数字 2、3 和 5。当然，如果一个数字里面只出现 2、3 和 5 这三个数字，他也一样喜欢，例如 222、2355</description>
+    </item>
+    
+    <item>
+      <title>滚球游戏</title>
+      <link>https://whao.cc/algorithm/gun-qiu-you-xi/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whao.cc/algorithm/gun-qiu-you-xi/</guid>
+      <description>京东 2020 秋招 某滚球游戏规则如下：球从入口处（第一层）开始向下滚动，每次可向下滚动一层，直到滚至最下面一层为止。球每次可滚至左下、下方或右下三个</description>
+    </item>
+    
+  </channel>
+</rss>
