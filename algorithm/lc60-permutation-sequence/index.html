@@ -167,6 +167,10 @@
                             LeetCode
                         </a>
                         
+                        <a class="tag" href="/tags/%E5%BA%B7%E6%89%98%E5%B1%95%E5%BC%80" title="康托展开">
+                            康托展开
+                        </a>
+                        
                     </div>
                     <h1>Lc60 第 K 个排列 - Permutation Sequence</h1>
                     <h2 class="subheading"></h2>
@@ -206,7 +210,10 @@
                 </header>
                 <nav id="TableOfContents"></nav>
                 
-                <p><strong>题目描述：</strong></p>
+                <blockquote>
+<p>题目来源：<a href="https://leetcode-cn.com/problems/permutation-sequence/">LeetCode</a></p>
+</blockquote>
+<p><strong>题目描述：</strong></p>
 <p>给出集合 <code>[1,2,3,...,n]</code>，其他所有元素共有 <em>n!</em> 种排列。</p>
 <p>按大小顺序列出所有排列情况，并一一标记，当 <code>n=3</code> 时，所有排列如下：</p>
 <ol>
@@ -234,7 +241,7 @@
 <p>输出：&ldquo;2314&rdquo;</p>
 </blockquote>
 <p><strong>题解：</strong></p>
-<p>解题之前我们首先直到一个结论：</p>
+<p>解题之前我们首先知道一个结论：</p>
 <blockquote>
 <p>对于 n 个不同的数字进行排列，共有 <em>n!</em> 种可能。</p>
 </blockquote>
@@ -250,6 +257,7 @@ k = k % (x-1)!
 \tag{2}
 $$
 然后我们只需要按照上述公式从左到右依次计算 <code>n</code> 个位置上的数字。</p>
+<p>这个过程称作<a href="https://blog.csdn.net/wbin233/article/details/72998375">逆康托展开</a>。</p>
 <p>代码如下：</p>
 <blockquote>
 <p>代码对边界情况进行了处理。</p>
@@ -379,6 +387,8 @@ $$
                         <a href="/tags/stack" title="stack">
                             stack
                         </a>
+                        
+                        
                         
                         
                     </div>
