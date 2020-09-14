@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="Java 程序基础概念" />
-    <meta property="og:title" content="Java 程序基础概念" />
-    <meta property="twitter:title" content="Java 程序基础概念" />
+    <meta name="title" content="我是白非力" />
+    <meta property="og:title" content="我是白非力" />
+    <meta property="twitter:title" content="我是白非力" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="王浩, wanghao, 北风, 北风博客, 王浩的博客, wanghao Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Java 程序基础概念-北风博客 | Hao Blog</title>
+    <title>我是白非力-北风博客 | Hao Blog</title>
 
-    <link rel="canonical" href="/post/java-basic-concept/">
+    <link rel="canonical" href="/post/everyone-is-baifeili/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -163,16 +163,8 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/java" title="Java">
-                            Java
-                        </a>
-                        
-                        <a class="tag" href="/tags/basics" title="Basics">
-                            Basics
-                        </a>
-                        
                     </div>
-                    <h1>Java 程序基础概念</h1>
+                    <h1>我是白非力</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         Posted by 
@@ -180,7 +172,7 @@
                                 北风 Blog
                          
                         on 
-                        Saturday, May 30, 2020
+                        Monday, September 14, 2020
                         
                         
                         
@@ -208,208 +200,29 @@
                 <header>
                     <h2>TOC</h2>
                 </header>
-                <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#一注释">一、注释</a></li>
-        <li><a href="#二标识符与关键字">二、标识符与关键字</a></li>
-        <li><a href="#三数据类型">三、数据类型</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+                <nav id="TableOfContents"></nav>
                 
-                <ol>
-<li>注释
-<ol>
-<li>单行注释</li>
-<li>多行注释</li>
-<li>文档注释</li>
-</ol>
-</li>
-<li>标识符与关键字</li>
-<li>数据类型
-<ol>
-<li>基本数据类型</li>
-<li>数据占用空间大小</li>
-<li>引用数据类型</li>
-<li>默认值</li>
-<li>数据溢出</li>
-</ol>
-</li>
-<li>运算符</li>
-</ol>
-<h2 id="一注释">一、注释</h2>
-<p>在程序编写的过程中，使用注释可以明确的标记出代码的作用，同时也更方便维护，因此写好注释是每一个程序员的必修课。</p>
-<p>Java 中注释的形式有三种：</p>
-<ol>
-<li>单行注释，使用 <code>//</code> 标记</li>
-<li>多行注释，使用 <code>/* …… */</code> 标记</li>
-<li>文档注释，使用 <code>/** …… */</code> 标记</li>
-</ol>
-<h3 id="单行注释">单行注释</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#8be9fd;font-style:italic">class</span> <span style="color:#50fa7b">hello</span><span style="color:#ff79c6">()</span> <span style="color:#ff79c6">{</span>
-	<span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#8be9fd;font-style:italic">static</span> <span style="color:#8be9fd">void</span> <span style="color:#50fa7b">main</span><span style="color:#ff79c6">(</span>String<span style="color:#ff79c6">[]</span> args<span style="color:#ff79c6">)</span> <span style="color:#ff79c6">{</span>
-		<span style="color:#6272a4">// 单行注释示例
-</span><span style="color:#6272a4"></span>		<span style="color:#6272a4">// 打印 Hello, World 字符串
-</span><span style="color:#6272a4"></span>		System<span style="color:#ff79c6">.</span><span style="color:#50fa7b">out</span><span style="color:#ff79c6">.</span><span style="color:#50fa7b">pringln</span><span style="color:#ff79c6">(</span><span style="color:#f1fa8c">&#34;Hello, World&#34;</span><span style="color:#ff79c6">);</span>
-	<span style="color:#ff79c6">}</span>
-<span style="color:#ff79c6">}</span>
-</code></pre></div><h3 id="多行注释">多行注释</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#8be9fd;font-style:italic">class</span> <span style="color:#50fa7b">hello</span><span style="color:#ff79c6">()</span> <span style="color:#ff79c6">{</span>
-	<span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#8be9fd;font-style:italic">static</span> <span style="color:#8be9fd">void</span> <span style="color:#50fa7b">main</span><span style="color:#ff79c6">(</span>String<span style="color:#ff79c6">[]</span> args<span style="color:#ff79c6">)</span> <span style="color:#ff79c6">{</span>
-		<span style="color:#6272a4">/* 
-</span><span style="color:#6272a4">		 * 单行注释示例
-</span><span style="color:#6272a4">		 * 打印 Hello, World 字符串
-</span><span style="color:#6272a4">		 * 常用来在写大段说明文字
-</span><span style="color:#6272a4">		 */</span>
-		System<span style="color:#ff79c6">.</span><span style="color:#50fa7b">out</span><span style="color:#ff79c6">.</span><span style="color:#50fa7b">pringln</span><span style="color:#ff79c6">(</span><span style="color:#f1fa8c">&#34;Hello, World&#34;</span><span style="color:#ff79c6">);</span>
-	<span style="color:#ff79c6">}</span>
-<span style="color:#ff79c6">}</span>
-</code></pre></div><h3 id="文档注释">文档注释</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#6272a4">/**
-</span><span style="color:#6272a4"> * 打印一行字符串
-</span><span style="color:#6272a4"> * @Date 2020/05/30
-</span><span style="color:#6272a4"> */</span>
-<span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#8be9fd;font-style:italic">class</span> <span style="color:#50fa7b">hello</span><span style="color:#ff79c6">()</span> <span style="color:#ff79c6">{</span>
-	<span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#8be9fd;font-style:italic">static</span> <span style="color:#8be9fd">void</span> <span style="color:#50fa7b">main</span><span style="color:#ff79c6">(</span>String<span style="color:#ff79c6">[]</span> args<span style="color:#ff79c6">)</span> <span style="color:#ff79c6">{</span>
-		System<span style="color:#ff79c6">.</span><span style="color:#50fa7b">out</span><span style="color:#ff79c6">.</span><span style="color:#50fa7b">pringln</span><span style="color:#ff79c6">(</span><span style="color:#f1fa8c">&#34;Hello, World&#34;</span><span style="color:#ff79c6">);</span>
-	<span style="color:#ff79c6">}</span>
-<span style="color:#ff79c6">}</span>
-</code></pre></div><p>文档注释中提供了许多类似 <code>@Date</code> 这样的标记，如参数类型 <code>@param</code>，返回值类型 <code>@return</code> 等等，开发中常用文档注释来标记类和方法，进行说明。</p>
-<p><img src="/img/post/035b48a5-3938-49e6-9448-6a83f96d2ad7.png" alt="Java String 类中 charAt 函数的注释"></p>
-<p>这是 Java String 类中 charAt 函数的注释，作为参考。</p>
-<p>在 IEDA 等编辑器中还可能提供其他功能，如 <code>TODO</code> 标记可以将每一个 <code>TODO</code> 标记及备注文字集合到 IDE 的一个列表中，方便整体预览。</p>
-<p><img src="/img/post/a1cf6cd4-9984-4210-a659-4521127d18e9.png" alt=""></p>
-<h2 id="二标识符与关键字">二、标识符与关键字</h2>
-<h3 id="标识符">标识符：</h3>
-<p>程序中变量名称为标识符。在 Java 中标识只能由字母、数字、_和 $ 符号组成，并且不能以数字开头，不能使用 Java 中的保留字。</p>
-<p>对于标识符的定义由以下建议</p>
-<ol>
-<li>尽量不要使用数字，如：i1、i2</li>
-<li>命名应尽量有意义，使用 Student、car 等单词，而不是 a、b 等无意义的字符</li>
-<li>Java 中标识符区分大小写，Book、book、bOok 表示三个不同的标识符</li>
-<li>&lsquo;$&rsquo; 符号由特殊的意义，不要使用</li>
-</ol>
-<p>常用的标识符命名方法有三种分别是匈牙利命名法、驼峰命名法和帕斯卡命名法。<strong>匈牙利命名法</strong>要求在每个变量名前面加上若干表示数据类型的字符，例如 String 类型的数字变量可以写成 <code>s_num</code>‘，Windows 多采用了这种方式；<strong>驼峰命名法</strong>指混合使用大小写来构成变量的名字，将变量名中第一个单词首字母小写，其他单词首字母大写，如变量名 <code>charAt</code>；<strong>帕斯卡命名法</strong>在驼峰命名法的基础上将首字母大写，如 <code>UserName</code>，通常用在类名的定义中。除此之外，定义常量通常使用全大写，如定义常量 <code>USERCOUNT=10</code>。</p>
-<p>从 Java 1.7 开始也开始支持中文变量名，如 <code>用户名=&quot;Jake&quot;</code>，但是在开发中通常还是使用英文作变量名，鲜有使用中文。</p>
-<h3 id="关键字">关键字：</h3>
-<table>
-<thead>
-<tr>
-<th align="center">abstract</th>
-<th align="center">assert</th>
-<th align="center">boolean</th>
-<th align="center">break</th>
-<th align="center">byte</th>
-<th align="center">case</th>
-<th align="center">catch</th>
-<th align="center">char</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">asd</td>
-<td align="center">contine</td>
-<td align="center">const</td>
-<td align="center">default</td>
-<td align="center">do</td>
-<td align="center">double</td>
-<td align="center">else</td>
-<td align="center">extends</td>
-</tr>
-<tr>
-<td align="center">enum</td>
-<td align="center">final</td>
-<td align="center">finally</td>
-<td align="center">for</td>
-<td align="center">goto</td>
-<td align="center">if</td>
-<td align="center">if</td>
-<td align="center">implements</td>
-</tr>
-<tr>
-<td align="center">import</td>
-<td align="center">instanceof</td>
-<td align="center">int</td>
-<td align="center">interface</td>
-<td align="center">long</td>
-<td align="center">native</td>
-<td align="center">new</td>
-<td align="center">null</td>
-</tr>
-<tr>
-<td align="center">package</td>
-<td align="center">private</td>
-<td align="center">protected</td>
-<td align="center">public</td>
-<td align="center">return</td>
-<td align="center">short</td>
-<td align="center">static</td>
-<td align="center">synchronized</td>
-</tr>
-<tr>
-<td align="center">super</td>
-<td align="center">strictfp</td>
-<td align="center">this</td>
-<td align="center">throw</td>
-<td align="center">throws</td>
-<td align="center">transient</td>
-<td align="center">try</td>
-<td align="center">switch</td>
-</tr>
-<tr>
-<td align="center">void</td>
-<td align="center">volatile</td>
-<td align="center">var</td>
-<td align="center">while</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody>
-</table>
-<h2 id="三数据类型">三、数据类型</h2>
-
-<script src="/js/mindmap.min.js"></script>
-<script src="/js/kity.min.js"></script>
-<script src="/js/kityminder.core.min.js"></script>
-
-
-<link rel="stylesheet" href="/css/mindmap.css" />
-
-
-<div id="" class="mindmap mindmap-lg">
-    <ul>
-<li>Java 数据类型
-<ul>
-<li>基本数据类型
-<ul>
-<li>数值型
-<ul>
-<li>整数类型（byte、short、int、long）</li>
-<li>浮点数类型（float、double）</li>
-</ul>
-</li>
-<li>字符型（char）</li>
-<li>布尔型（boolean）</li>
-</ul>
-</li>
-<li>引用数据类型
-<ul>
-<li>类（class）</li>
-<li>接口（interface）</li>
-<li>数组</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-</div>
-
+                <blockquote>
+<p>白非立同学，男，出生于1997年。</p>
+</blockquote>
+<p>去年冬天，我接连投除了人生的头两份求职简历，简历写很简单，堆砌了个人介绍、项目经历以及专业技能，没有人教我，也没有看网上教程，更没有找人指导。</p>
+<p>简历投出去之后，我开始心心念念惦记着要面试了，要面试了，但是我还没有看过哪怕一个面经，一个知识点。</p>
+<p>某天下午，突然的我接到了面试电话，我慌了，紧张到说话不利索，磕磕巴巴，像个阿巴阿巴的哑巴，因为我连自我介绍都还没准备。毫无悬念的，在我的一阵结巴中，面试结束了，我长舒了一口气。</p>
+<p>嘀嘀嘀~，同学给我发来了消息，他正在这个公司实习，刚刚给我打电话的是他的领导， 就坐在他后面。他说我自我介绍太短了，我很心虚，没好意思说其实我根本就没有准备。</p>
+<p>刚吃了大亏的我自觉丢人了，下定决心一定要在下一场面试之前好好准备，那是我最想去的公司。</p>
+<p>日子浑浑噩噩，不自觉好几天又过去了，不出意料的收到了面试通知。</p>
+<p>面试前两天，突然想起实验室明天要团建，我又慌了，晚上急急忙忙百度面试考点，罗列了一下，制作成脑图，百度了几个答案放了上去，记了记。</p>
+<p>“没事，就这样吧，我可以的，我这么优秀，老师同学都觉得我技术很厉害，面试官肯定会看重我的代码能力，没问题的。”，我开始自我安慰。</p>
+<p>第二天实验室团建，玩的很开心。晚上回到实验室，想到明天的面试，着急了，赶忙把昨天做的脑图翻出来，挨条百度答案，开始记。</p>
+<p>回宿舍路上，大家都说我肯定能行，听到大家的鼓励，我又行了，少了点慌张，多了点自信。“面试官肯定会看重我能力的。”，我又想。</p>
+<p>面试时间到了， 我特意去了小会议室。</p>
+<p>第一步自我介绍，磕磕巴巴地说完了。</p>
+<p>接下来两三个问题，磕磕巴巴说了一些名词，让我把提到的名字挑一两个介绍一下，我又哑了。</p>
+<p>那做道题吧，很简单的算法题，我不会。</p>
+<p>最一个问题，了解 HashMap 吗，我说不会。</p>
+<p>面试在尴尬中结束了，我又长舒了一口气，结束了。</p>
+<p>我靠在椅子上，感觉天也暗了，原来已经是傍晚。</p>
+<p>回到实验室，我什么也没有说，径直拿上书包回了宿舍，躺平到床上，什么也不想说，什么也不想做，脑袋空空如也。</p>
 
 
                 
@@ -458,15 +271,10 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/post/java-introduction/" data-toggle="tooltip" data-placement="top" title="Hello Java">&larr;
+                        <a href="/post/java-basic-concept/" data-toggle="tooltip" data-placement="top" title="Java 程序基础概念">&larr;
                             Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/post/everyone-is-baifeili/" data-toggle="tooltip" data-placement="top" title="我是白非力">Next
-                            Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
